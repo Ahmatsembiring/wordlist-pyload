@@ -1,0 +1,3 @@
+ping google.com
+nslookup google.com --> versi lebih lengkap 
+dig google.com -> dns 
